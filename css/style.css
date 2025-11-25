@@ -48,3 +48,10 @@ p{
     background-color: rgb(95, 101, 205);
     border-radius: 32px;
 }
+.button{
+    height: 64px;
+    margin: 24px auto;
+    border-radius: 18px;
+    color: black;
+    background-color: white;
+}
