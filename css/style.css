@@ -48,14 +48,16 @@ p{
     height: 64px;
     margin: 20px auto;
     border-radius: 18px;
-    color: black;
-    background-color: white;
-    align-content: center;
-}
-
-.purple{
     background-color: rgb(88, 101, 242);
     color: white;
+    align-content: center;
+    font-size: 15pt;
+}
+
+.white{
+    color: black;
+    background-color: white;
+    font-weight: 500;
 }
 
 .card{
