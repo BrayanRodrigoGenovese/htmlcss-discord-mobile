@@ -7,8 +7,8 @@
 /* perchè max-width=100% e non fit/max/min content?*/
 /* display: block; serve per rimuovere una linea di pixel che a volte compara */
 img{
-    max-width: 100%;
-    display: block;
+    width: 100%;
+    max-width: none;
 }
 
 body{
@@ -38,8 +38,7 @@ p{
 }
 
 .banner{
-    margin-left: auto;
-    margin-right: auto;
+    margin:0 auto;
 }
 
 .download-section{
