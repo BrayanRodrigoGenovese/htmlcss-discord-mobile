@@ -65,7 +65,7 @@ p{
     padding-top: 60px;
     padding-bottom: 64px;
     position:relative;
-    background-color: rgb(93, 101, 209);
+    background: linear-gradient(180deg,rgba(46, 48, 132, 1) 0%, rgba(85, 97, 232, 1) 100%);
     border-radius: 40px;
     color:white
 }
