@@ -11,6 +11,7 @@ img{
     display: block;
 }
 
+
 .sigmar-regular {
   font-family: "Sigmar", sans-serif;
   font-weight: 400;
@@ -23,15 +24,27 @@ body{
     font-family: "DM Sans", sans-serif;
 }
 
-.card{
-    background-color: rgb(95, 101, 205);
-    margin: 1rem;
-    padding: 3rem 2rem;
-    border-radius: 32px;
+article{
+    margin: 24px;
+    padding: 3rem 32px;
 }
-.header {
-    font-size: 24px;
+
+p{
+    font-size: 14pt;
+}
+
+.header{
+    font-size: 18pt;
     font-family: "Sigmar", sans-serif;
     line-height: 1.1;
     margin: 1rem 0;
+}
+
+.download-section{
+    text-align: center;
+}
+
+.card{
+    background-color: rgb(95, 101, 205);
+    border-radius: 32px;
 }
