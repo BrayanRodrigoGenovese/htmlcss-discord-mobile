@@ -11,22 +11,19 @@ img{
     display: block;
 }
 
-
-.sigmar-regular {
-  font-family: "Sigmar", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 body{
-    background-color: rgb(33, 36, 120);
+    background-color: rgb(25, 30, 123);
     color: white;
     font-family: "DM Sans", sans-serif;
 }
 
+main{
+    padding: 0 24px;
+}
+
 article{
-    margin: 24px;
-    padding: 3rem 32px;
+    padding: 0 32px;
+    margin: 76px 0;
 }
 
 p{
@@ -37,26 +34,31 @@ p{
     font-size: 18pt;
     font-family: "Sigmar", sans-serif;
     line-height: 1.1;
-    margin: 1rem 0;
+    margin: 12px 0;
 }
 
 .download-section{
     text-align: center;
 }
-
-.card{
-    background-color: rgb(95, 101, 205);
-    border-radius: 32px;
-}
-
-.card img{
-    height: 96px;
-}
-
 .button{
     height: 64px;
-    margin: 24px auto;
+    margin: 20px auto;
     border-radius: 18px;
     color: black;
     background-color: white;
+}
+
+.card{
+    padding-top: 60px;
+    padding-bottom: 64px;
+    position:relative;
+    background-color: rgb(93, 101, 209);
+    border-radius: 40px;
+    padding: ;
+}
+.card img{
+    height: 110px;
+    position: absolute;
+    top: -50px;
+    left: 50px;
 }
