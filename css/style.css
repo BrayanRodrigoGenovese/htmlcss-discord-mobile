@@ -48,6 +48,11 @@ p{
     background-color: rgb(95, 101, 205);
     border-radius: 32px;
 }
+
+.card img{
+    height: 96px;
+}
+
 .button{
     height: 64px;
     margin: 24px auto;
