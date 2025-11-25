@@ -18,12 +18,13 @@ body{
 }
 
 main{
-    padding: 0 24px;
+    padding: 0 26px;
 }
 
 article{
-    padding: 0 32px;
-    margin: 76px 0;
+    max-width: 512px;
+    padding: 0 35px;
+    margin: 76px auto;
 }
 
 p{
@@ -71,6 +72,7 @@ p{
 
 .card img{
     height: 110px;
+    width: auto;
     position: absolute;
     top: -55px;
     left: 55px;
