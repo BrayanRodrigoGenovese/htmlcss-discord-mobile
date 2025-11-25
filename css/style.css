@@ -37,6 +37,11 @@ p{
     margin: 12px 0;
 }
 
+.banner{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .download-section{
     text-align: center;
 }
@@ -46,6 +51,12 @@ p{
     border-radius: 18px;
     color: black;
     background-color: white;
+    align-content: center;
+}
+
+.purple{
+    background-color: rgb(88, 101, 242);
+    color: white;
 }
 
 .card{
@@ -54,11 +65,17 @@ p{
     position:relative;
     background-color: rgb(93, 101, 209);
     border-radius: 40px;
-    padding: ;
+    color:white
 }
+
 .card img{
     height: 110px;
     position: absolute;
-    top: -50px;
-    left: 50px;
+    top: -55px;
+    left: 55px;
+}
+
+video {
+    width: 100%;
+    border-radius: 40px;
 }
