@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* perchè max-width=100% e non fit/max/min content?*/
+/* display: block; serve per rimuovere una linea di pixel che a volte compara */
+img{
+    max-width: 100%;
+    display: block;
+}
